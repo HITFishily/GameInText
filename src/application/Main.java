@@ -26,7 +26,6 @@ public class Main extends Application {
             primaryStage.setResizable(false);
             primaryStage.setTitle("AndroidReverseTools");
             primaryStage.show();
-//            primaryStage.getIcons().add(new Image(Main.class.getResourceAsStream("icon.png")));
             Controller c = loader.getController();
             c.setMainAPP(this);
         } catch (IOException e) {
